@@ -1,0 +1,19 @@
+#include<stdio.h>
+main()
+{
+	int n ,i,s=0,o=0;
+	scanf("%d",&n);
+	for(i=2;i<=n;i++)
+	{
+		if(i%2==0)
+		 s=s+i;
+}  
+for(i=1;i<=n;i++)
+	{
+		if(i%2!=0)
+		 o=o+i;
+	}
+	printf("\neven sum: %d",s);
+	printf("\nodd sum: %d",o);
+	printf("\n%d",s-o);
+}
